@@ -1,0 +1,86 @@
+
+body{
+  background-color: #1E2028;
+  color: white;
+}
+
+#debut {
+  display: flex;
+  justify-content: center; /* Centre le contenu horizontalement */
+  align-items: center; /* Centre le contenu verticalement */
+  height: 50vh; /* Définit la hauteur de la div à 100% de la hauteur de la vue */
+}
+
+#maison {
+  width: 40%;
+  height: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
+}
+
+body{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.one {
+  grid-column: 0/ 2;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 3;
+  grid-row:1;
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #maison {
+    width: 80%;
+    height: auto;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 1.2rem;
+  }
+  h5{
+    font-size:  1.2rem;
+  }
+  body{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 1;
+    grid-row:2;
+  }
+}
+
+
+
+
