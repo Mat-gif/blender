@@ -74,12 +74,12 @@ function createTitle(myList,size,title) {
 
 var videos=[
     {
-    "id": "step2",
+    "id": "step1",
     "objets_du_domaine": ["plan","Objets 3D"],
     "titre": "Creation de la base",
-    "lien_image": "./img/step2.png",
-    "lien_video": "./video/step2.mkv",
-    "blendLink" : "./blender/step2.blend",
+    "lien_image": "./img/step1.png",
+    "lien_video": "./video/step1.mkv",
+    "blendLink" : "./blender/step1.blend",
     "instruments": ["sélection", "extrusion"],
     "actions": [
       {"action": "ShiftA"},
@@ -92,12 +92,12 @@ var videos=[
     ]
   },
   {
-    "id": "step3",
+    "id": "step2",
     "objets_du_domaine": ["Objets 3D","plan"],
     "titre": "Création du toit (partie 1)",
-    "lien_image": "./img/step3.png",
-    "lien_video": "./video/step3.mkv",
-    "blendLink" : "./blender/step3.blend",
+    "lien_image": "./img/step2.png",
+    "lien_video": "./video/step2.mkv",
+    "blendLink" : "./blender/step2.blend",
     "instruments": ["sélection", "échelle"],
     "actions": [
     {"action": "Scube" },
@@ -111,12 +111,12 @@ var videos=[
     ]
     },
     {
-      "id": "step5",
+      "id": "step3",
       "objets_du_domaine": ["plan","Objets 3D"],
       "titre": "Création du toit (partie 2)",
-      "lien_image": "./img/step5.png",
-      "lien_video": "./video/step5.mkv",
-      "blendLink" : "./blender/step5.blend",
+      "lien_image": "./img/step3.png",
+      "lien_video": "./video/step3.mkv",
+      "blendLink" : "./blender/step3.blend",
       "instruments": ["sélection", "extrusion","échelle"],
       "actions": [
       {"action": "TabO" },
@@ -133,12 +133,12 @@ var videos=[
       ]
       },
       {
-        "id": "step6",
+        "id": "step4",
         "objets_du_domaine": ["Objets 3D"],
         "titre": "Création de la poutre ",
-        "lien_image": "./img/step6.png",
-        "lien_video": "./video/step6.mkv",
-        "blendLink" : "./blender/step6.blend",
+        "lien_image": "./img/step4.png",
+        "lien_video": "./video/step4.mkv",
+        "blendLink" : "./blender/step4.blend",
         "instruments": ["sélection", "échelle","extrusion","déplacement"],
         "actions": [
         {"action": "TabO" },
@@ -155,12 +155,12 @@ var videos=[
         ]
         },
         {
-          "id": "step7",
+          "id": "step5",
           "objets_du_domaine": ["Objets 3D"],
           "titre": "Styliser la forme de la maison",
-          "lien_image": "./img/step7.png",
-          "lien_video": "./video/step7.mkv",
-          "blendLink" : "./blender/step7.blend",
+          "lien_image": "./img/step5.png",
+          "lien_video": "./video/step5.mkv",
+          "blendLink" : "./blender/step5.blend",
           "instruments": ["sélection", "déplacement", "échelle"],
           "actions": [
           {"action": "TabO" },
@@ -177,12 +177,12 @@ var videos=[
           ]
           },
           {
-            "id": "step8",
+            "id": "step6",
             "objets_du_domaine": ["Objets 3D","plan"],
             "titre": "Creation de la porte",
-            "lien_image": "./img/step8.png",
-            "lien_video": "./video/step8.mkv",
-            "blendLink" : "./blender/step8.blend",
+            "lien_image": "./img/step6.png",
+            "lien_video": "./video/step6.mkv",
+            "blendLink" : "./blender/step6.blend",
             "instruments": ["sélection", "échelle", "extrusion","déplacement"],
             "actions": [
             {"action": "TabO" },
@@ -212,12 +212,12 @@ var videos=[
             ]
             },
             {
-              "id": "step9",
+              "id": "step7",
               "objets_du_domaine": ["Objets 3D","plan"],
               "titre": "Creation des fenetres",
-              "lien_image": "./img/step9.png",
-              "lien_video": "./video/step9.mkv",
-              "blendLink" : "./blender/step9.blend",
+              "lien_image": "./img/step7.png",
+              "lien_video": "./video/step7.mkv",
+              "blendLink" : "./blender/step7.blend",
               "instruments": ["sélection", "extrusion", "séparation","rotation"],
               "actions": [
               {"action": "TabO" },
@@ -243,12 +243,12 @@ var videos=[
               ]
               },
               {
-                "id": "step10",
+                "id": "step8",
                 "objets_du_domaine": ["cercle","Objets 3D"],
                 "titre": "Creation de la fenetre ronde",
-                "lien_image": "./img/step10.png",
-                "lien_video": "./video/step10.mkv",
-                "blendLink" : "./blender/step10.blend",
+                "lien_image": "./img/step8.png",
+                "lien_video": "./video/step8.mkv",
+                "blendLink" : "./blender/step8.blend",
                 "instruments": ["sélection", "extrusion", "échelle"],
                 "actions": [
                 {"action": "TabO" },
@@ -272,12 +272,12 @@ var videos=[
                 ]
                 },
                 {
-                  "id": "step11",
+                  "id": "step9",
                   "objets_du_domaine": ["Objets 3D"],
                   "titre": "Redimentionner la maison",
-                  "lien_image": "./img/step11.png",
-                  "lien_video": "./video/step11.mkv",
-                  "blendLink" : "./blender/step11.blend",
+                  "lien_image": "./img/step9.png",
+                  "lien_video": "./video/step9.mkv",
+                  "blendLink" : "./blender/step9.blend",
                   "instruments": ["sélection", "échelle"],
                   "actions": [
                   {"action": "TabO" },
@@ -289,12 +289,12 @@ var videos=[
                   ]
                   },
                   {
-                    "id": "step12",
+                    "id": "step10",
                     "objets_du_domaine": ["plan","Objets 3D"],
                     "titre": "Création de la cheminé (partie 1)",
-                    "lien_image": "./img/step12.png",
-                    "lien_video": "./video/step12.mkv",
-                    "blendLink" : "./blender/step12.blend",
+                    "lien_image": "./img/step10.png",
+                    "lien_video": "./video/step10.mkv",
+                    "blendLink" : "./blender/step10.blend",
                     "instruments": ["sélection", "déplacement", "extrusion"],
                     "actions": [
                     {"action": "TabO" },
@@ -318,12 +318,12 @@ var videos=[
                     ]
                     },
                     {
-                      "id": "step12bis",
+                      "id": "step11",
                       "objets_du_domaine": ["plan","Objets 3D"],
                       "titre": "Création de la cheminé (partie 2)",
-                      "lien_image": "./img/step12bis.png",
-                      "lien_video": "./video/step12bis.mkv",
-                      "blendLink" : "./blender/step12bis.blend",
+                      "lien_image": "./img/step11.png",
+                      "lien_video": "./video/step11.mkv",
+                      "blendLink" : "./blender/step11.blend",
                       "instruments": ["sélection", "échelle", "extrusion"],
                       "actions": [
                       {"action": "E" },
@@ -336,12 +336,12 @@ var videos=[
                       ]
                       },
                       {
-                        "id": "step13",
+                        "id": "step12",
                         "objets_du_domaine": ["plan","Objets 3D"],
                         "titre": "Styliser le toit (partie 1)",
-                        "lien_image": "./img/step13.png",
-                        "lien_video": "./video/step13.mkv",
-                        "blendLink" : "./blender/step13.blend",
+                        "lien_image": "./img/step12.png",
+                        "lien_video": "./video/step12.mkv",
+                        "blendLink" : "./blender/step12.blend",
                         "instruments": ["sélection", "extrusion", "échelle"],
                         "actions": [
                           {"action": "TabO" },
@@ -361,12 +361,12 @@ var videos=[
                         ]
                         },
                         {
-                          "id": "step13bis",
+                          "id": "step13",
                           "objets_du_domaine": ["Objets 3D"],
                           "titre": "Styliser le toit (partie 2)",
-                          "lien_image": "./img/step13bis.png",
-                          "lien_video": "./video/step13bis.mkv",
-                          "blendLink" : "./blender/step13bis.blend",
+                          "lien_image": "./img/step13.png",
+                          "lien_video": "./video/step13.mkv",
+                          "blendLink" : "./blender/step13.blend",
                           "instruments": ["sélection", "rotation"],
                           "actions": [
                           {"action": "TabO" },
