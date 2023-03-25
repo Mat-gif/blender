@@ -66,10 +66,10 @@ function createTitle(myList,size,title) {
       i++;
     });
   }
-  
-  
 
-        
+
+
+
 
 
 var videos=[

@@ -12,8 +12,8 @@ body{
 }
 
 #maison {
-  width: 40%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .wrapper {
@@ -47,8 +47,8 @@ body{
   }
   
   #maison {
-    width: 80%;
-    height: auto;
+    width: auto;
+    height: 100%;
   }
   .wrapper {
     display: grid;
